@@ -6,6 +6,7 @@ class Bandit < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/NichuSPN/bandit/releases/download/v1.0.1/bandit-v1.0.1-darwin-arm64.tar.gz"
+    sha256 "e67b7d6b13a6bca79f0ab8999f379b89d952e83e560a2aa3b70ef7ee34b8601b"
   elsif OS.mac? && Hardware::CPU.intel?
     url "https://github.com/NichuSPN/bandit/releases/download/v1.0.1/bandit-v1.0.1-darwin-amd64.tar.gz"
   elsif OS.linux?
